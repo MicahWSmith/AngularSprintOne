@@ -1,0 +1,48 @@
+mat-card {
+    margin: 8px;
+    background-color: darkorange;
+    color: white
+}
+
+.mat-card>.mat-card-actions:last-child {
+    padding: 6px
+}
+
+mat-card-title {
+    font-size: xxx-large;
+    margin: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > span {
+    color: white;
+    font-size: xx-large;
+}
+
+.artist-form {
+    min-width: 150px;
+    width: 100%;
+}
+  
+.form-full-width {
+    width: 100%;
+}
+
+input.mat-input-element {
+    font-size: xx-large;
+}
+
+button.mat-focus-indicator.mat-raised-button.mat-button-base {
+    font-size: x-large;
+    display: block;
+    margin: 0 auto;
+    background-color: darkslateblue;
+    color: white;
+}
+
+p {
+    font-size: large;
+}

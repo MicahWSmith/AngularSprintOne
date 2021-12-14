@@ -26,6 +26,8 @@ export class RecommenderComponent implements OnInit {
     let parsedArtist: string = this.artistName.split(' ').join('+');
     console.log("Converted Name: ", parsedArtist);
 
+    if(!this.artistName) return;
+
     let getReq: string = "https://tastedive.com/api/similar?q=" + parsedArtist + "&type=music&info=1&limit=3&k=" + this.APIKey
     
     //set recommended list to api call
