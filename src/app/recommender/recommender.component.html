@@ -7,14 +7,6 @@
         <div *ngFor="let artist of recommended">
             <div class="card">
                 <h2>Name: {{ artist.Name }}</h2>
-                
-                <!-- <div>
-                    Links:
-                    <br>
-                    <a href={{artist.wUrl}}>Wiki</a>
-                    <br>
-                    <a href={{artist.yUrl}}>Youtube</a>
-                </div> -->
 
                 <a target="_blank" rel="noopener" href={{artist.wUrl}}>
                     <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
